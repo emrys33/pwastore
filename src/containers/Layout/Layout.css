@@ -1,0 +1,9 @@
+.Contents {
+    margin-top: 46px;
+}
+
+@media (max-width: 500px) {
+    .Contents {
+        margin-left: 0;
+    }
+}

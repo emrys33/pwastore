@@ -1,0 +1,19 @@
+.DropDown {
+    position: fixed;
+    width: 120px;
+    height: 90px;
+    top: 46px;
+    right: 0;
+    z-index: 100;
+    border: 1px solid #eee;
+    background-color: #f9f9f9;
+    transition: transform 0.2s ease-out;
+}
+
+.Open {
+    transform: translateY(0);
+}
+
+.Close {
+    transform: translateY(-100%);
+}

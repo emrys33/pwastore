@@ -1,0 +1,23 @@
+.AppDescription {
+    margin: 60px 30px;
+    color: #4d4d4d;
+    display: flex;
+}
+
+.AppDescription h4 {
+    margin-left: 20px;
+}
+
+.AppDescription button {
+    height: 40px;
+    margin-top: 100px;
+    direction: rtl;
+}
+
+.Overview {
+    margin-left: 30px;
+}
+
+.Overview p {
+    padding: 0 20px;
+}

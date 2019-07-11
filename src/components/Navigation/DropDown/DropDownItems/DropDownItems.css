@@ -1,0 +1,21 @@
+.DropDownItems {
+    margin: 10px -15px;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    list-style: none;
+}
+
+.DropDownItems a {
+    color: #555;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.DropDownItems a:hover,
+.DropDownItems a:active,
+.DropDownItems a.active {
+    color: #40A4C8;
+}

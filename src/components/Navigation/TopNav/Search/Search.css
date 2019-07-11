@@ -1,0 +1,27 @@
+.Search-input {
+    width: 300px;
+    background-color: #F5F5F5;
+    float: left;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+}
+
+.Search-button {
+    width: 45px;
+    cursor: pointer;
+    height: 37px;
+    border: 1px #dadada;
+    background-color: #ddd;
+    color: white;
+}
+
+.Search-button:hover {
+    background-color: #2196F3;
+}
+
+@media (max-width: 600px) {
+    .Search-input {
+        width: 60%;
+    }
+}

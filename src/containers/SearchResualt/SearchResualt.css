@@ -1,0 +1,10 @@
+.SearchResualt {
+	margin-top: 60px;
+    display: flex;
+    overflow: auto;
+}
+
+.SearchResualt p {
+	margin: 17px 23px;
+	font-size: 1.1rem;
+}

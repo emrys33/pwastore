@@ -1,0 +1,8 @@
+.HomeApps {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    display: block;
+    background-color: #f9f9f9;
+}
