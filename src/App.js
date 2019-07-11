@@ -8,7 +8,6 @@ import SignIn from './containers/MyProfile/Signin/Signin';
 import Signup from './containers/MyProfile/Signup/Signup';
 import SearchResualt from './containers/SearchResualt/SearchResualt';
 import About from './components/About/About';
-import Auth from './containers/Auth/Auth';
 
 class App extends Component {
 
@@ -26,7 +25,6 @@ class App extends Component {
           <Route path='/about' component={About}/>
           <Route path='/signin' component={SignIn}/>
           <Route path='/signup' component={Signup}/>
-          <Route path='/auth' component={Auth}/>
           <Route path='/application' component={AppDescription}/>
           <Route path='/searchresualt' component={SearchResualt}/>
           <Route path='/' component={HomeApps}/>
