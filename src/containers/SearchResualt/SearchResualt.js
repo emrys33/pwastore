@@ -3,6 +3,7 @@ import axios from '../../axios-order';
 
 import './SearchResualt.css';
 import AppBlock from '../../components/AppsRow/AppBlock/AppBlock';
+import Spinner from '../../components/UI/Spinner/Spinner';
 
 class SearchResualt extends Component {
 
@@ -33,7 +34,7 @@ class SearchResualt extends Component {
     }
 
     render() {
-        let srchList = null;
+        let srchList = <Spinner />;
         if (!this.state.loading) {
             srchList = this.state.searchedList.map(param => (
                 <AppBlock key={param.pk} clicked={() => this.appClickedHandler(param.pk)}>

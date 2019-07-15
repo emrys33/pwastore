@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import axios from '../../axios-order';
 
 import './AppDescription.css';
+import Spinner from '../../components/UI/Spinner/Spinner';
 
 class AppDescription extends Component {
     state = {
@@ -27,7 +28,7 @@ class AppDescription extends Component {
     }
 
     render () {
-        let appDes = null;
+        let appDes = <Spinner />;
         if (!this.state.loading) {
             appDes = 
                 <Fragment>

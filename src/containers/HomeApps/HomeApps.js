@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import './HomeApps.css';
 import AppsRow from '../../components/AppsRow/AppsRow';
 import * as actionTypes from '../../store/actions/actions';
+import Spinner from '../../components/UI/Spinner/Spinner';
 
 class HomeApps extends Component {
     constructor (props) {
@@ -36,7 +37,7 @@ class HomeApps extends Component {
     }
 
     render () {
-        let appsRow = null;
+        let appsRow = <Spinner />;
         if (!this.state.loading) {
             appsRow = 
                 <Fragment>
