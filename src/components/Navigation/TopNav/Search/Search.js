@@ -19,12 +19,12 @@ class Search extends Component {
 
     render () {
         return (
-            <div>
+            <div className="Search-wraper">
                 <input
                 onChange={(event) => this.searchInputHandler(event)}
                 className="Search-input"
                     type="text" 
-                    placeholder="Search.." 
+                    placeholder="Search" 
                     aria-label="Search"
                 />
                 <button

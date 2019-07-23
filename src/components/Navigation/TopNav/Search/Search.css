@@ -1,16 +1,21 @@
+.Search-wraper {
+    border: 1px solid #ccc;
+}
+
 .Search-input {
     width: 300px;
+    height: 37px;
     background-color: #F5F5F5;
     float: left;
     padding: 6px;
     border: none;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 .Search-button {
     width: 45px;
-    cursor: pointer;
     height: 37px;
+    cursor: pointer;
     border: 1px #dadada;
     background-color: #ddd;
     color: white;
