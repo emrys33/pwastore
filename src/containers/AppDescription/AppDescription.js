@@ -35,13 +35,13 @@ class AppDescription extends Component {
                     <div className='AppDescription'>
                         <img 
                             src={require('../../asset/images/icon-'+this.state.appInfo.app_name+'.png')}
-                            alt="App's Icon"
-                            style={{width:'150px'}} />
+                            alt="App's Icon"/>
                         <div>
                             <h4>{this.state.appInfo.app_name}</h4>
                         </div>
-                        <button className="btn btn-primary" type={"submit"}>Install</button>
+                        <button className="btn btn-primary IntsallButton" type={"submit"}>Install</button>
                     </div>
+                    <hr/>
                     <div className='Overview'>
                         <h4>Overview</h4>
                         <p>{this.state.appInfo.app_description}</p>
