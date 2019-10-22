@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class MyProfile extends Component {
     render () {
         return(
-            <div></div>
+            <div>
+                <h1>Under Develop!</h1>
+            </div>
         );
     };
 }
